@@ -1,6 +1,6 @@
 {
 	"description": "The CodeIgniter framework",
-	"name": "greenline-software-ci/framework",
+	"name": "greenline-software/ci",
 	"type": "project",
 	"homepage": "https://codeigniter.com",
 	"license": "MIT",
