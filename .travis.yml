@@ -40,27 +40,6 @@ jobs:
     - php: nightly
     - php: hhvm-3.30
   include:
-    - php: 5.3
-      dist: precise
-      env: DB=mysql
-    - php: 5.3
-      dist: precise
-      env: DB=mysqli
-    - php: 5.3
-      dist: precise
-      env: DB=pgsql
-    - php: 5.3
-      dist: precise
-      env: DB=sqlite
-    - php: 5.3
-      dist: precise
-      env: DB=pdo/mysql
-    - php: 5.3
-      dist: precise
-      env: DB=pdo/pgsql
-    - php: 5.3
-      dist: precise
-      env: DB=pdo/sqlite
     - php: 5.4
       dist: trusty
       env: DB=mysql
